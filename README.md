@@ -17,28 +17,26 @@ The inputs for first phase are: 1- the name of the miRNA list file
 			       4- A number representing the max number of miRNAs (the default is 29, if no number is added)
 			       5- A number representing the minimun number of genes in the modules
 
-The outputs for second phase are:
-
-
-note: The output from this phase is written inside PCmiRm/data/inputs entitled "File6_allmodules.csv" has all possible bicliques given the inputed network and can be used for further analysis if desired.
+note: The output from this phase is written inside PCmiRm/data/inputs entitled "File6_allmodules.csv" has all possible non-redundant bicliques given the input network and can be used for further analysis if desired.
 
 The second and third phase:
-The second (Module Selection) and third (Module Comparison) phase of PCmiRm is a python algorithm.
-Inputs: Only .csv or .tsv files in a separated folder numerated in the order below as "File1" for item number 1 and so on...
-        1- File1 = miRs upregulated group 1 (for ex case);
+The second (Module Selection) and third (Module Comparison) phases of PCmiRm are Python algorithms.
+Inputs: Only .csv, .txt, or .tsv files in a folder numerated necessarily in the order below, and named as "File1" for item number 1 and so on. P.S.: You can add any character after "File1", e.g., "File1miRsUPCase.tsv".
+        1- File1 = miRs upregulated group 1 (for example, case);
         2- File2 = miRs downregulated group 1;
-        3- File3 = miRs upregulated group 2 (for ex control);
+        3- File3 = miRs upregulated group 2 (for example, control);
         4- File4 = miRs downregulated group 2,
-        5- File5 = Tissue-Specific Genes (Desired set o genes)
+        5- File5 = Tissue-Specific Genes (Desired set of genes)
         6- File6 = Corregulation modules (with at least 2 miRs)
 
+The outputs for the second phase are:
 Outputs: 1- Modules score (Which will rank the modules according to the amount of differentially expressed miRs and tissue-specific genes;
-         2- Total amount of miRs in module
-         3- Amount of Up regulated miRs per modules
-         4- Amount of Down regulated miRs per modules
-         5- Percentage of differentially expressed miRS;
-         6- Total amount of targets;
-         7- Percentage of tissue-specific targets in the modules;
-         8- List of miRs followed by "not DE" for not Differentially Expressed, "is UP" for Upregulated and "is DOWN" for Downregulated;
-         9- List of Targets followed by the values 0 or 1 in which 0= No tissue, 1= Tissue;
+         2- List of miRs followed by "not DE" for not Differentially Expressed, "is UP" for Upregulated and "is DOWN" for Downregulated;
+         3- Percentage of differentially expressed miRs; 
+         4- Total number of miRs per module;
+         5- List of Tissue-Specific Targets
+         6- Percentage of tissue-specific targets in the modules;
+         7- Total amount of targets;
          10- Complete Module
+
+
