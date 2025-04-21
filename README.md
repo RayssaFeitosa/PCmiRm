@@ -34,9 +34,9 @@ The second (Module Selection) and third (Module Comparison) phases of PCmiRm are
         6- File6 = Corregulation modules (with at least 2 miRs)
 
 
-The outputs for the second phase are:
+The outputs for the second and third phases are:
 
-Outputs: 
+Final outputs: 
 
 	1- Modules score (Which will rank the modules according to the amount of differentially expressed miRs and tissue-specific genes;
         2- List of miRs followed by "not DE" for not Differentially Expressed, "is UP" for Upregulated, and "is DOWN" for Downregulated;
