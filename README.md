@@ -36,13 +36,15 @@ The second (Module Selection) and third (Module Comparison) phases of PCmiRm are
 
 The outputs for the second phase are:
 
-Outputs: 1- Modules score (Which will rank the modules according to the amount of differentially expressed miRs and tissue-specific genes;
-         2- List of miRs followed by "not DE" for not Differentially Expressed, "is UP" for Upregulated, and "is DOWN" for Downregulated;
-         3- Percentage of differentially expressed miRs; 
-         4- Total number of miRs per module;
-         5- List of Tissue-Specific Targets
-         6- Percentage of tissue-specific targets in the modules;
-         7- Total amount of targets;
-         10- Complete Module
+Outputs: 
+
+	1- Modules score (Which will rank the modules according to the amount of differentially expressed miRs and tissue-specific genes;
+        2- List of miRs followed by "not DE" for not Differentially Expressed, "is UP" for Upregulated, and "is DOWN" for Downregulated;
+        3- Percentage of differentially expressed miRs; 
+        4- Total number of miRs per module;
+        5- List of Tissue-Specific Targets
+        6- Percentage of tissue-specific targets in the modules;
+        7- Total amount of targets;
+        10- Complete Module
 
 
