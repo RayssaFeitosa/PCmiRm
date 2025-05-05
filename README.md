@@ -47,5 +47,5 @@ Final outputs:
         7- Total amount of targets;
         10- Complete Module
 
-ps: This code is only supported on Linux
+ps: This code is only supported on Linux, and test files are in data/inputs. There are also examples of the outputs in data/finaloutputs
 
