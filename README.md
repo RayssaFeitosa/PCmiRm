@@ -7,7 +7,7 @@ READ ME
 
 PCmiRm guidelines.
 
-Before running the tool "PCmiRm.py", you need to compile the C++ part by running "make" (remember to run "make clean" before "make" whenever you alter the code) inside the "modules_identification" folder.
+Before running the tool "PCmiRm.py", you need to compile the C++ part by running "make" (remember to run "make clean" or delete all .o files before "make" whenever you alter the code) inside the "modules_identification" folder.
 Test files are provided in the "input" folder. Also, "data/finaloutputs" has some examples of how the outputs should look.
 
 When you run PCmiRm.py, the whole tool runs as a whole from the first until the third phase, but each phase has an output that can be used for any desired analysis.
