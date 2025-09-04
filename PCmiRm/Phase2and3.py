@@ -203,7 +203,7 @@ def main():
                     scoreControl = 0
                     percentTSgenes = 0
                     if TSgenescount >= minTSG:
-                        if TSgenescount > minTSG:
+                        if TSgenescount >= minTSG:
                             percentTSgenes = '{0:.2f}'.format((TSgenescount / (noTSgenescount + TSgenescount)) * 100)
                         if (miUpCasecount + miDownCasecount) >= minm: 
                             scoreCase = (pesomiRs*math.log2(countmiRsSameCase + miUpCasecount + miDownCasecount)*(miUpCasecount + miDownCasecount)/(countmiRsSameCase + miUpCasecount + miDownCasecount)) + ((pesoTS*math.log((TSgenescount + noTSgenescount),(2))*TSgenescount) / (TSgenescount + noTSgenescount))
