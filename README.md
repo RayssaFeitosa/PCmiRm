@@ -40,7 +40,7 @@ The 6 Inputs are only .csv, .txt, or .tsv files in a folder numerated **necessar
 
 
 The outputs from the second and third phases are grouped by modules with the same number of miRNAs. For each group (e.g., all modules with 3 miRNAs), there will be up to two output files. So, if the input in the first phase includes modules with 6 different miRNA counts, you could have up to 12 output files in total — two for each group.
-One of those two files contains tissue-specific modules present in only one group and not in the other, and another contains modules that are present in both groups but their miRNA direction differs for one or more miRs (such as the same miRNA is upregulated in cases and downregulated in controls). If all modules are different in gene or miRNA content for both groups, the file containing modules present in both groups are not generated.
+One of those two files contains tissue-specific modules present in only one group and not in the other, and another contains modules that are present in both groups, but their miRNA direction differs for one or more miRs (such as the same miRNA is upregulated in cases and downregulated in controls). If all modules are different in gene or miRNA content for both groups, the file containing modules present in both groups is not generated.
 P.S.: If no differences are found between the two groups for modules with a specific number of miRNAs (e.g., modules containing 4 miRNAs), then no output files will be generated for that group.
 
 The final outputs are .tsv files containing the information below: 
