@@ -1,5 +1,6 @@
 # PCmiRm
-When using this code, please cite the paper: Prioritization of Coregulatory miRNA-mRNA Modules (PCmiRm): An Innovative Tool for Comparing Groups Using miRNA-mRNA Coregulation Modules Based on miRNA Differential Expression and Tissue-Specific Targets.  Feitosa, Rayssa et al.
+When using this code, please cite the paper: 
+Feitosa, Rayssa M. M. W. and Paradiso, Jana and Gouveia, Gisele and Machado-Lima, Ariane and Brentani, Helena, Prioritization of Coregulatory miRNA-mRNA Modules (PCmiRm): An Innovative Tool for Comparing Groups Using miRNA-mRNA Coregulation Modules Based on miRNA Differential Expression and Tissue-Specific Targets. http://dx.doi.org/10.2139/ssrn.5442935
 
 Compatible with Linux and IOS systems.
 
